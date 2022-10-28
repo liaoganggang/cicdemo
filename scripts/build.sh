@@ -50,7 +50,7 @@ build_package(){
 
     docker push 192.168.2.4/devel/${AppName}:${CodeTag} #上传至harbor仓库
 
-    if [ echo $? -eq 0 ];then
+    if [ $? -eq 0 ];then
         exit 0
     else
         echo "faild"
