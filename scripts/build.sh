@@ -53,7 +53,7 @@ build_package(){
     if [ $? -eq 0 ];then
         exit 0
     else
-        echo "faild"
+        echo "failed"
     fi
 
 }
